@@ -44,24 +44,3 @@ for (pattern, tag) in pattern_tag:
 
 X_train = np.array(X_train)
 y_train = np.array(y_train)
-
-# make the dataset class
-
-
-class myDataset(Dataset):
-    def __init__(self, X_train, y_train):
-        self.X_train = X_train
-        self.y_train = y_train
-        self.n_samples = len(y_train)
-
-    def __getitem__(self, index):
-        return self.X_train[index], self.y_train[index]
-
-    def __len__(self):
-        return self.n_samples
-
-
-#  Setting the data and saving it
-dataset = myDataset(X_train, y_train)
-torch.save(dataset, './dataset.pt')
-dd = torch.load('./dataset.pt')
