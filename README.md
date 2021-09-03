@@ -26,5 +26,5 @@
 
 ## Model
 
-  <img width='300' height='300' src='https://github.com/ahmedheakl/ChatBot_using_NLP_-PyTorch/blob/main/Model_photo.jpg'>          
+  <img width='350' height='300' src='https://github.com/ahmedheakl/ChatBot_using_NLP_-PyTorch/blob/main/Model_photo.jpg'>          
 
