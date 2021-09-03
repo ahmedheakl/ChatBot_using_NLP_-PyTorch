@@ -3,7 +3,7 @@ import json
 import numpy as np
 import torch
 import torch.nn as nn
-from torch.utils.data import DataLoader, Dataset
+from torch.utils.data import Dataset
 
 # get data from json
 with open('intents.json', 'r') as f:
@@ -61,11 +61,7 @@ class myDataset(Dataset):
         return self.n_samples
 
 
-#  Setting the hyperparamters and the dataloader
-batch_size = 8
+#  Setting the data and saving it
 dataset = myDataset(X_train, y_train)
-train_loader = DataLoader(dataset=dataset, batch_size=8, shuffle=True)
 torch.save(dataset, './dataset.pt')
-
 dd = torch.load('./dataset.pt')
-print(dd.__getitem__(8))
