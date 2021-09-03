@@ -25,6 +25,6 @@
 * Create ```y_train``` list using the the index of the label tags
 
 ## Model
-<p align='center>
+
   <img width='100' height='100' src='https://github.com/ahmedheakl/ChatBot_using_NLP_-PyTorch/blob/main/Model_photo.jpg'>          
-</p>
+
