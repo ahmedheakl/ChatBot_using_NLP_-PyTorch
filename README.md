@@ -25,6 +25,11 @@
 * Create ```y_train``` list using the the index of the label tags
 
 ## Model
+* The model is a two hidden-layer-linear model with ReLU activation in between. 
+* Each hidden layer has 8 neurons.
+* The input_size is the size of all the words in the dataset as each sentece is represented as vector of zeros and ones with the length of all the words in the dataset
+* The num_classes is the number of tags out there. 
+Here is a summary of the model: 
 <p align="center">
 <img width='400' height='300' src='https://github.com/ahmedheakl/ChatBot_using_NLP_-PyTorch/blob/main/Model_photo.jpg'>         
 </p>
