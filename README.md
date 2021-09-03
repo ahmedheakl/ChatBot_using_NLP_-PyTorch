@@ -62,7 +62,7 @@ Here is a snippt of the data inside the *intents.json* file:
 
 Here is an example: 
 <p align="center">
-<img width='400' height='400' src='https://github.com/ahmedheakl/ChatBot_using_NLP_-PyTorch/blob/main/example.PNG'>         
+<img width='500' height='400' src='https://github.com/ahmedheakl/ChatBot_using_NLP_-PyTorch/blob/main/example.PNG'>         
 </p>
 
 
